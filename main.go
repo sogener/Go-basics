@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	var n = 10
 	Divisors(n)
@@ -15,6 +13,5 @@ func Divisors(n int) int {
 			count += 1
 		}
 	}
-	fmt.Println(count)
 	return count
 }
